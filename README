@@ -30,3 +30,16 @@ This program comes with its own Debian packaging scripts which may or may not
 fully comply with the official Debian packaging requirements. These scripts can
 be found in the 'debian' sub-directory. Binary packages can be built using
 'dpkg-buildpackage'.
+
+Building 
+--------
+run in bash ./autogen.sh to create the configure file from the checked in git configuration. This autogen also calls configure for you. 
+run make afterwards to compile.
+
+
+Components
+----------
+
+Binaries
+--------
+icinga-app/icinga is libtool shell wrapper around the main executable.
